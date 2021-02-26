@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/XiaoMi/soar/common"
-	"github.com/XiaoMi/soar/database"
-	"github.com/XiaoMi/soar/env"
+	"github.com/huolunl/soar/common"
+	"github.com/huolunl/soar/database"
+	"github.com/huolunl/soar/env"
 
 	"github.com/kr/pretty"
 	"vitess.io/vitess/go/vt/sqlparser"
@@ -86,7 +86,7 @@ func TestRuleImplicitConversion(t *testing.T) {
 			"SELECT * FROM t4 WHERE col = '1'",
 		},
 		{
-			// https://github.com/XiaoMi/soar/issues/151
+			// https://github.com/huolunl/soar/issues/151
 			"SELECT * FROM t4 WHERE col = 1",
 		},
 	}

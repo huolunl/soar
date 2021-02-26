@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/XiaoMi/soar/common"
+	"github.com/huolunl/soar/common"
 )
 
 func TestPrintPrettyStmtNode(t *testing.T) {

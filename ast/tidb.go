@@ -17,7 +17,7 @@
 package ast
 
 import (
-	"github.com/XiaoMi/soar/common"
+	"github.com/huolunl/soar/common"
 
 	"github.com/kr/pretty"
 	"github.com/pingcap/parser"

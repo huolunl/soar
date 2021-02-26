@@ -21,7 +21,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/XiaoMi/soar/common"
+	"github.com/huolunl/soar/common"
 )
 
 func TestRewrite(t *testing.T) {

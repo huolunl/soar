@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/XiaoMi/soar/common"
+	"github.com/huolunl/soar/common"
 )
 
 var update = flag.Bool("update", false, "update .golden files")

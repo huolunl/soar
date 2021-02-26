@@ -21,10 +21,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/XiaoMi/soar/ast"
-	"github.com/XiaoMi/soar/common"
-	"github.com/XiaoMi/soar/database"
-	"github.com/XiaoMi/soar/env"
+	"github.com/huolunl/soar/ast"
+	"github.com/huolunl/soar/common"
+	"github.com/huolunl/soar/database"
+	"github.com/huolunl/soar/env"
 
 	"github.com/dchest/uniuri"
 	"vitess.io/vitess/go/vt/sqlparser"

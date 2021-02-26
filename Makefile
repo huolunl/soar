@@ -132,8 +132,8 @@ doc: build
 .PHONY: heuristic
 heuristic: doc
 	@echo "$(CGREEN)Update Heuristic rule golden files ...$(CEND)"
-	go test github.com/XiaoMi/soar/advisor -v -update -run TestListHeuristicRules
-	go test github.com/XiaoMi/soar/advisor -v -update -run TestMergeConflictHeuristicRules
+	go test github.com/huolunl/soar/advisor -v -update -run TestListHeuristicRules
+	go test github.com/huolunl/soar/advisor -v -update -run TestMergeConflictHeuristicRules
 	docker stop soar-mysql 2>/dev/null || true
 
 # Update vitess vendor

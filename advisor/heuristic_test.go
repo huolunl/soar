@@ -21,9 +21,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/XiaoMi/soar/common"
+	"github.com/huolunl/soar/common"
 
-	"github.com/XiaoMi/soar/env"
+	"github.com/huolunl/soar/env"
 	"github.com/kr/pretty"
 	"vitess.io/vitess/go/vt/sqlparser"
 )
@@ -954,7 +954,7 @@ func TestRuleMultiCompare(t *testing.T) {
 		},
 		{
 			"SELECT * FROM tbl WHERE col = 'abc'",
-			// https://github.com/XiaoMi/soar/issues/169
+			// https://github.com/huolunl/soar/issues/169
 			"SELECT * FROM tbl WHERE col = 'abc' and c = 1",
 			"update tb set c = 1 where a = 2 and b = 3",
 			"delete from tb where a = 2 and b = 3",
